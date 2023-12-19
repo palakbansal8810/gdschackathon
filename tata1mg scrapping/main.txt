@@ -1,0 +1,23 @@
+with python,
+read file Tata1.mg.html and parse it with beautiful soup
+
+find all
+<div class="style__product-box___3oEU6">
+find all the divs
+
+try find div with class="style__product-box___3oEU6" and store to product_link
+except product_link=" "
+
+try find div with class="style__pack-size___3jScl" and store to Product_size
+except product_Size=" "
+
+try find div with class="style__pro-title___3G3rr" and store to Product_name
+except Product_name=" "
+
+try find div with class="style__price-tag___KzOkY" and store to Product_price
+except Product_price=" "
+
+try find span with class="CardRatingDetail__weight-700___27w9q" and store to Product_review
+except Product_review=" "
+
+open an excel file and write Product_name,Product_price,Product_review,product_link,product_Size
