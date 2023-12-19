@@ -1,1 +1,1 @@
-# gdschackathon
+# hackathon-gdsc
